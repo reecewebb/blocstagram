@@ -24,6 +24,10 @@
 		1287454C1AA1407E0066E1D3 /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 128745421AA1407E0066E1D3 /* 9.jpg */; };
 		1287454D1AA1407E0066E1D3 /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 128745431AA1407E0066E1D3 /* 10.jpg */; };
 		128745511AA1416D0066E1D3 /* ImagesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 128745501AA1416D0066E1D3 /* ImagesTableViewController.m */; };
+		128745541AA27FD90066E1D3 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 128745531AA27FD90066E1D3 /* User.m */; };
+		128745571AA280EC0066E1D3 /* Media.m in Sources */ = {isa = PBXBuildFile; fileRef = 128745561AA280EC0066E1D3 /* Media.m */; };
+		1287455A1AA282750066E1D3 /* Comment.m in Sources */ = {isa = PBXBuildFile; fileRef = 128745591AA282750066E1D3 /* Comment.m */; };
+		1287455D1AA283570066E1D3 /* DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 1287455C1AA283570066E1D3 /* DataSource.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +65,14 @@
 		128745431AA1407E0066E1D3 /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
 		1287454F1AA1416D0066E1D3 /* ImagesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagesTableViewController.h; sourceTree = "<group>"; };
 		128745501AA1416D0066E1D3 /* ImagesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagesTableViewController.m; sourceTree = "<group>"; };
+		128745521AA27FD90066E1D3 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		128745531AA27FD90066E1D3 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		128745551AA280EC0066E1D3 /* Media.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Media.h; sourceTree = "<group>"; };
+		128745561AA280EC0066E1D3 /* Media.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Media.m; sourceTree = "<group>"; };
+		128745581AA282750066E1D3 /* Comment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Comment.h; sourceTree = "<group>"; };
+		128745591AA282750066E1D3 /* Comment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Comment.m; sourceTree = "<group>"; };
+		1287455B1AA283570066E1D3 /* DataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSource.h; sourceTree = "<group>"; };
+		1287455C1AA283570066E1D3 /* DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSource.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +124,14 @@
 				123636731A9FD02E009548B1 /* Supporting Files */,
 				1287454F1AA1416D0066E1D3 /* ImagesTableViewController.h */,
 				128745501AA1416D0066E1D3 /* ImagesTableViewController.m */,
+				128745521AA27FD90066E1D3 /* User.h */,
+				128745531AA27FD90066E1D3 /* User.m */,
+				128745551AA280EC0066E1D3 /* Media.h */,
+				128745561AA280EC0066E1D3 /* Media.m */,
+				128745581AA282750066E1D3 /* Comment.h */,
+				128745591AA282750066E1D3 /* Comment.m */,
+				1287455B1AA283570066E1D3 /* DataSource.h */,
+				1287455C1AA283570066E1D3 /* DataSource.m */,
 			);
 			path = Blocstagram;
 			sourceTree = "<group>";
@@ -268,6 +288,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1287455A1AA282750066E1D3 /* Comment.m in Sources */,
+				128745571AA280EC0066E1D3 /* Media.m in Sources */,
+				1287455D1AA283570066E1D3 /* DataSource.m in Sources */,
+				128745541AA27FD90066E1D3 /* User.m in Sources */,
 				1236367C1A9FD02E009548B1 /* ViewController.m in Sources */,
 				123636791A9FD02E009548B1 /* AppDelegate.m in Sources */,
 				123636761A9FD02E009548B1 /* main.m in Sources */,
