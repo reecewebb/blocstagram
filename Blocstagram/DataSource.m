@@ -50,6 +50,7 @@
         if (image) {
             Media *media = [[Media alloc] init];
             media.user = [self randomUser];
+            media.caption = [self randomStringOfLength:16];
             media.image = image;
             
             NSUInteger commentCount = arc4random_uniform(10);
