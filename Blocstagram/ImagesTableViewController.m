@@ -98,6 +98,7 @@
         if (kindOfChange == NSKeyValueChangeSetting) {
             // Someone set a brand new images array
             [self.tableView reloadData];
+            
         } else if (kindOfChange == NSKeyValueChangeInsertion ||
                    kindOfChange == NSKeyValueChangeRemoval ||
                    kindOfChange == NSKeyValueChangeReplacement) {
