@@ -29,6 +29,7 @@
 		128745571AA280EC0066E1D3 /* Media.m in Sources */ = {isa = PBXBuildFile; fileRef = 128745561AA280EC0066E1D3 /* Media.m */; };
 		1287455A1AA282750066E1D3 /* Comment.m in Sources */ = {isa = PBXBuildFile; fileRef = 128745591AA282750066E1D3 /* Comment.m */; };
 		1287455D1AA283570066E1D3 /* DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 1287455C1AA283570066E1D3 /* DataSource.m */; };
+		12CC43831ABBAEBF00CE6B88 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12CC43821ABBAEBF00CE6B88 /* LoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +77,8 @@
 		128745591AA282750066E1D3 /* Comment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Comment.m; sourceTree = "<group>"; };
 		1287455B1AA283570066E1D3 /* DataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSource.h; sourceTree = "<group>"; };
 		1287455C1AA283570066E1D3 /* DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSource.m; sourceTree = "<group>"; };
+		12CC43811ABBAEBF00CE6B88 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		12CC43821ABBAEBF00CE6B88 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +140,8 @@
 				1287455C1AA283570066E1D3 /* DataSource.m */,
 				127042FC1AA7F30C008F94B8 /* MediaTableViewCell.h */,
 				127042FD1AA7F30C008F94B8 /* MediaTableViewCell.m */,
+				12CC43811ABBAEBF00CE6B88 /* LoginViewController.h */,
+				12CC43821ABBAEBF00CE6B88 /* LoginViewController.m */,
 			);
 			path = Blocstagram;
 			sourceTree = "<group>";
@@ -297,6 +302,7 @@
 				128745571AA280EC0066E1D3 /* Media.m in Sources */,
 				127042FE1AA7F30C008F94B8 /* MediaTableViewCell.m in Sources */,
 				1287455D1AA283570066E1D3 /* DataSource.m in Sources */,
+				12CC43831ABBAEBF00CE6B88 /* LoginViewController.m in Sources */,
 				128745541AA27FD90066E1D3 /* User.m in Sources */,
 				1236367C1A9FD02E009548B1 /* ViewController.m in Sources */,
 				123636791A9FD02E009548B1 /* AppDelegate.m in Sources */,
