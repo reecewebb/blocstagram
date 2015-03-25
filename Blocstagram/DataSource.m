@@ -178,6 +178,7 @@
     if (self.isRefreshing == NO) {
         self.isRefreshing = YES;
         
+        if ([self.mediaItems firstObject]) {
         NSString *minID = [[self.mediaItems firstObject] idNumber];
         NSDictionary *parameters = @{@"min_id": minID};
         
@@ -188,6 +189,10 @@
                 completionHandler(error);
             }
         }];
+        } else {
+            self.isRefreshing = NO;
+            [self populateDataWithParameters:nil completionHandler:nil];
+        }
     }
 }
 
