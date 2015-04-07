@@ -14,6 +14,8 @@
 		123636841A9FD02E009548B1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 123636821A9FD02E009548B1 /* LaunchScreen.xib */; };
 		123636901A9FD02E009548B1 /* BlocstagramTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1236368F1A9FD02E009548B1 /* BlocstagramTests.m */; };
 		127042FE1AA7F30C008F94B8 /* MediaTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 127042FD1AA7F30C008F94B8 /* MediaTableViewCell.m */; };
+		127A200C1ACA2123000C78F4 /* MediaFullScreenAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 127A200B1ACA2123000C78F4 /* MediaFullScreenAnimator.m */; };
+		12826D2D1AC8BE4900560CDF /* MediaFullScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12826D2C1AC8BE4900560CDF /* MediaFullScreenViewController.m */; };
 		128745441AA1407E0066E1D3 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1287453A1AA1407E0066E1D3 /* 1.jpg */; };
 		128745451AA1407E0066E1D3 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1287453B1AA1407E0066E1D3 /* 2.jpg */; };
 		128745461AA1407E0066E1D3 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1287453C1AA1407E0066E1D3 /* 3.jpg */; };
@@ -58,6 +60,10 @@
 		1236368F1A9FD02E009548B1 /* BlocstagramTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlocstagramTests.m; sourceTree = "<group>"; };
 		127042FC1AA7F30C008F94B8 /* MediaTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaTableViewCell.h; sourceTree = "<group>"; };
 		127042FD1AA7F30C008F94B8 /* MediaTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaTableViewCell.m; sourceTree = "<group>"; };
+		127A200A1ACA2123000C78F4 /* MediaFullScreenAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaFullScreenAnimator.h; sourceTree = "<group>"; };
+		127A200B1ACA2123000C78F4 /* MediaFullScreenAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaFullScreenAnimator.m; sourceTree = "<group>"; };
+		12826D2B1AC8BE4900560CDF /* MediaFullScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaFullScreenViewController.h; sourceTree = "<group>"; };
+		12826D2C1AC8BE4900560CDF /* MediaFullScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaFullScreenViewController.m; sourceTree = "<group>"; };
 		1287453A1AA1407E0066E1D3 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		1287453B1AA1407E0066E1D3 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
 		1287453C1AA1407E0066E1D3 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
@@ -149,6 +155,10 @@
 				127042FD1AA7F30C008F94B8 /* MediaTableViewCell.m */,
 				12CC43811ABBAEBF00CE6B88 /* LoginViewController.h */,
 				12CC43821ABBAEBF00CE6B88 /* LoginViewController.m */,
+				12826D2B1AC8BE4900560CDF /* MediaFullScreenViewController.h */,
+				12826D2C1AC8BE4900560CDF /* MediaFullScreenViewController.m */,
+				127A200A1ACA2123000C78F4 /* MediaFullScreenAnimator.h */,
+				127A200B1ACA2123000C78F4 /* MediaFullScreenAnimator.m */,
 			);
 			path = Blocstagram;
 			sourceTree = "<group>";
@@ -364,8 +374,10 @@
 				12CC43831ABBAEBF00CE6B88 /* LoginViewController.m in Sources */,
 				128745541AA27FD90066E1D3 /* User.m in Sources */,
 				1236367C1A9FD02E009548B1 /* ViewController.m in Sources */,
+				12826D2D1AC8BE4900560CDF /* MediaFullScreenViewController.m in Sources */,
 				123636791A9FD02E009548B1 /* AppDelegate.m in Sources */,
 				123636761A9FD02E009548B1 /* main.m in Sources */,
+				127A200C1ACA2123000C78F4 /* MediaFullScreenAnimator.m in Sources */,
 				128745511AA1416D0066E1D3 /* ImagesTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
