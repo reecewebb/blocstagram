@@ -18,6 +18,7 @@
 @interface ImagesTableViewController () <MediaTableViewCellDelegate, UIViewControllerTransitioningDelegate>
 
 @property (nonatomic, weak) UIImageView *lastTappedImageView;
+@property (nonatomic, strong) UITapGestureRecognizer *doubleTap;
 
 @end
 
@@ -72,6 +73,12 @@
     MediaTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"mediaCell" forIndexPath:indexPath];
     cell.delegate = self;
     cell.mediaItem = [self items][indexPath.row];
+    
+    UITapGestureRecognizer* tapRec= [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapFired:)];
+    self.doubleTap = tapRec;
+    self.doubleTap.numberOfTapsRequired = 2;
+    
+    [cell addGestureRecognizer:self.doubleTap];
     
     return cell;
 }
@@ -198,6 +205,15 @@
         UIActivityViewController *activityVC = [[UIActivityViewController alloc] initWithActivityItems:itemsToShare applicationActivities:nil];
         [self presentViewController:activityVC animated:YES completion:nil];
     }
+}
+
+- (void) tapFired:(UITapGestureRecognizer *)sender {
+    UITableViewCell* cell = (UITableViewCell*) sender.view;
+    NSIndexPath* indexPath = [self.tableView indexPathForCell:cell];
+    Media *mediaItem = [DataSource sharedInstance].mediaItems[indexPath.row];
+    [[DataSource sharedInstance] downloadImageForMediaItem:mediaItem];
+    
+    NSLog(@"Tap Fired");
 }
 
 #pragma mark - UIViewControllerTransitioningDelegate
