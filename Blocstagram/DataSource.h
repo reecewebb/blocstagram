@@ -27,5 +27,6 @@ typedef void (^NewItemCompletionBlock)(NSError *error);
 - (void) requestOldItemsWithCompletionHandler:(NewItemCompletionBlock)completionHandler;
 - (void) populateDataWithParameters:(NSDictionary *)parameters completionHandler:(NewItemCompletionBlock)completionHandler;
 - (void) toggleLikeOnMediaItem:(Media *)mediaItem;
+- (void) commentOnMediaItem:(Media *)mediaItem withCommentText:(NSString *)commentText;
 
 @end
