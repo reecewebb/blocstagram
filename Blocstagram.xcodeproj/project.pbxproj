@@ -91,6 +91,7 @@
 		124C73C41AE5DCD1000BB2F3 /* PostToInstagramViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostToInstagramViewController.m; sourceTree = "<group>"; };
 		124C73C61AE6008C000BB2F3 /* PostToInstagramCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostToInstagramCollectionViewCell.h; sourceTree = "<group>"; };
 		124C73C71AE6008C000BB2F3 /* PostToInstagramCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostToInstagramCollectionViewCell.m; sourceTree = "<group>"; };
+		125ED3831AE9995500A76C5B /* Blocstagram-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Blocstagram-Prefix.pch"; sourceTree = "<group>"; };
 		127042FC1AA7F30C008F94B8 /* MediaTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaTableViewCell.h; sourceTree = "<group>"; };
 		127042FD1AA7F30C008F94B8 /* MediaTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaTableViewCell.m; sourceTree = "<group>"; };
 		127A200A1ACA2123000C78F4 /* MediaFullScreenAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaFullScreenAnimator.h; sourceTree = "<group>"; };
@@ -214,6 +215,7 @@
 				124C73C41AE5DCD1000BB2F3 /* PostToInstagramViewController.m */,
 				124C73C61AE6008C000BB2F3 /* PostToInstagramCollectionViewCell.h */,
 				124C73C71AE6008C000BB2F3 /* PostToInstagramCollectionViewCell.m */,
+				125ED3831AE9995500A76C5B /* Blocstagram-Prefix.pch */,
 			);
 			path = Blocstagram;
 			sourceTree = "<group>";
@@ -561,6 +563,8 @@
 			baseConfigurationReference = 8FF0A01D14CE523579183A7B /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Blocstagram/Blocstagram-Prefix.pch";
 				INFOPLIST_FILE = Blocstagram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -572,6 +576,8 @@
 			baseConfigurationReference = B21883307796350DD00448EC /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Blocstagram/Blocstagram-Prefix.pch";
 				INFOPLIST_FILE = Blocstagram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
